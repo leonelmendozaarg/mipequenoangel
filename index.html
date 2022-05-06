@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alquileres para tus invitados">
+    <title>Mi pequeño Ángel - Alquileres y recuerdos para tus invitados</title>
+    <link rel="stylesheet/less" type="text/css" href="style.less" />
+    <script src="https://cdn.jsdelivr.net/npm/less@4" ></script>
+    <link rel="shortcut icon" href="./assets/IMG-20211215-WA0014.jpg" type="image/x-icon" />
+    <script type="text/javascript" charset="utf-8">
+        function Opciones() {
+            let Opciones = "../opciones.html"
+            window.open(Opciones);
+        }
+        function Entregados() {
+            let Entregados = "../entregados.html"
+            window.open(Entregados);
+        }
+        function Contactos() {
+            let Contactos = "../entregados.html"
+            window.open(Contactos);
+        }
+        let width = window.innerWidth;
+        console.log(width);
+    </script>
+  </head>
+  <body>
+    <header>
+        <div>
+        <p style="text-align:center;">
+            <a href="javascript:void(0);">
+            <img class="image" src="./assets/IMG-20211215-WA0014.jpg" style="height:70px;">
+            </a>
+        </p>
+        </div>
+        <div style="text-align:center;">
+            <ul>
+                <li><a>Trabajos</a></li>
+                <li><a>Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section>
+           <h2>Trabajos Recientes</h2>
+           <div class="trabajos">
+               <div>
+                   <p>Alquileres</p>
+               </div>
+               <div>
+                   <p>Impresiones</p>
+               </div>
+               <div>
+                   <p>Decoraciones</p>
+               </div>
+               <div>
+                   <p>Personalizados</p>
+               </div>
+           </div>
+    </section>
+    <section class="section-A">
+        <div>
+            <h2>Alquileres para tus invitados</h2>
+           <p>¿Fiesta de 15?, ¿Cumpleaños?, ¿Eventos especiales?, ofrecemos fotografias, alquilere, impresiones, y demás.</p>
+           <button onclick="Opciones()">Opciones</buton>
+        </div>
+    </section>
+    <section class="section-B">
+        <div>
+            <h2>Nuestro trabajo</h2>
+            <p>Conoce nuestra lista de nuestros recientes trabajos entregados, solicitados por clientes que confiaron.</p>
+            <button onclick="Realizados()">Realizados</button>
+        </div>
+    </section>
+    <section class="section-C">
+    </section>
+    <footer>
+        <div class="50">
+            <img class="image" src="assets/IMG-20211215-WA0017.jpg" height="70px">
+        </div>
+        <div class="50">
+            <ul>
+                <li><b><a>Formas de Contacto</a></b></li>
+                <li><a>Mi Pequeño Ángel</a></li>
+                <li><a>Mi Pequeño Ángel</a></li>
+                <li><a>+54 9 341 377-7440</a></li>
+            </ul>
+        </div>
+    </footer>
+  </body>
+</html>
