@@ -9,6 +9,8 @@
     <link rel="stylesheet/less" type="text/css" href="style.less" />
     <script src="https://cdn.jsdelivr.net/npm/less@4" ></script>
     <link rel="shortcut icon" href="./assets/IMG-20211215-WA0014.jpg" type="image/x-icon" />
+    <script src="app.js">
+    </script>
 </head>
 <body>
     <header>
@@ -27,33 +29,42 @@
         </div>
     </header>
     <section>
-        <optgroup>
-            <option value="Alquileres">Alquileres</option>
-            <option value="Impresiones">Impresiones</option>
-            <option value="Decoraciones">Decoraciones</option>
-            <option value="Personalizados">Trabajos Personalizados</option>
-        </optgroup>
-        <div class="Alquileres">
-            <div class=""></div>
-            <div class=""></div>
-            <div class=""></div>
-            <div class=""></div>
-            <div class=""></div>
+        <h1>Nuestras Opciones</h1>
+        <ul class="Selector">
+            <li>
+                <button onclick="Alquileres()">Alquileres</button>
+            </li>
+            <li>
+                <button onclick="Impresiones()">Impresiones</button>
+            </li>
+            <li>
+                <button onclick="Decoraciones()">Decoraciones</button>
+            </li>
+            <li>
+                <button onclick="Personalizados()">Personalizados</button>
+            </li>
+        </ul>
+        <div class="Alquileres" id="Alquileres">   
+                <img src="products/alquiler.jpg" alt="" class="">
+                <img src="products/alquiler_001.jpg" alt="" class="">
+                <img src="products/alquileres_003.jpg" alt="" class="">
+                <img src="products/alquileres_002.jpg" alt="" class="">
+                <img src="products/alquileres_004.jpg" alt="" class="">
+                <img src="products/alquileres_005.jpg" alt="" class="">
         </div>
-        <div class="Impresiones">
-            <div class=""></div>
-            <div class=""></div>
-            <div class=""></div>
-            <div class=""></div>
-            <div class=""></div>
+        <div class="Impresiones" id="Impresiones">
+                <img src="products/babyshower.jpg" alt="" class="">
+                <img src="products/banderines.jpg" alt="" class="">
+                <img src="products/impresiones.jpg" alt="" class="">
         </div>
-        <div class="Decoraciones">
-            <div class=""></div>
+        <div class="Decoraciones" id="Decoraciones">
+                <img src="products/regalitos.jpg" alt="" class="">
+                <img src="products/regalitos_001.jpg" alt="" class="">
+                <img src="products/regalitos_002.jpg" alt="" class="">
+                <img src="products/calendarios.jpg" alt="" class="">
         </div>
-        <div class="Personalizados">
-            <div class=""></div>
-            <div class=""></div>
-            <div class=""></div>
+        <div class="Personalizados" id="Personalizados">
+            <p>No contamos con imagenes por el momento..</p>
         </div>
 
     </section>
